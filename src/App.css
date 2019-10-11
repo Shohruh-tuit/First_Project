@@ -15,20 +15,5 @@
   grid-gap: 10px;
 }
 
-.header {
-  grid-area: h;
-  background-color: cornflowerblue;
-}
-.header img {
-  width: 5em;
-}
 
-.nav {
-  grid-area: n;
-  background-color: crimson;
-}
 
-.content {
-  grid-area: c;
-  background-color: darksalmon;
-}

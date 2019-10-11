@@ -1,0 +1,14 @@
+.header {
+  grid-area: h;
+  background-color: rgba(56, 114, 202, 0.815);
+}
+.header img {
+  width: 100px;
+}
+
+.header b {
+  position: absolute;
+  font-family: cursive;
+  font-size: 40px;
+  color: yellow;
+}
