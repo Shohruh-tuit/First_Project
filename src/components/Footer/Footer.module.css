@@ -1,0 +1,9 @@
+.footer {
+    background-color: #424242;
+    display: grid;
+    grid-area: f;
+}
+
+.footer b {
+    color: white;
+}
