@@ -3,19 +3,20 @@
   padding: 0;
 }
 .app-wrapper {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: grid; 
 
   grid-template-areas: 
-  "h h"
-  "n c";
-  grid-template-rows: 80px 1fr;
+  "h h h"
+  "n c c"
+  "f f f";
+  grid-template-rows: 70px 500px 100px;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 5px;
+  grid-gap: 3px;
 }
 
 .app-wrapper-content {
   grid-area: c;
-  background-color: rgba(190, 226, 60, 0.8);
+  background-color: rgba(234, 240, 241, 0.8);
 }
 

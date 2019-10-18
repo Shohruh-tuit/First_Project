@@ -1,11 +1,35 @@
 import React from 'react';
 import s from './Header.module.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {
+    faFacebook,
+    faInstagram,
+    faTelegramPlane,
+    faStackOverflow,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
     return(
         <header className={s.header}>
+        <div className={s.danniy}>
         <img src='https://s1.logaster.com/static/v3/img/products/logo.png'/>
-        <b>Start_Coding.Uz</b>
+          <div className={s.item}>
+          <FontAwesomeIcon icon={faStackOverflow} size="2px" />
+           <b>Tel:</b>  (90) 975-76-51
+          </div>
+          <div className={s.item}>
+          <FontAwesomeIcon icon={faTelegramPlane} size="2px" />
+           <b>Email:</b> Shohruhmasharipov49@gmail.com
+          </div>
+          <div className={s.item}>
+          <FontAwesomeIcon icon={faFacebook} size="2px" />
+          <b>Facebook:</b> <a href="https://www.facebook.com/shohruh.okayer?ref=bookmarks">  Shohruh.com</a> 
+          </div>
+          <div className={s.item}>
+          <FontAwesomeIcon icon={faInstagram} size="2px" />
+          <b>Instagram:</b> <a href="https://instagram.com/i_shoxruh"> i_shoxruh</a> 
+          </div> 
+        </div>
       </header>
         );
 }

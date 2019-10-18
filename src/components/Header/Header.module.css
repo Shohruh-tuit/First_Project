@@ -1,14 +1,28 @@
-.header {
+.header { 
+  width: 1380px;
+  height: 70px;
+  display: grid;
   grid-area: h;
-  background-color: rgba(56, 114, 202, 0.815);
+  background-color: #26a69a;
+  position: fixed;
 }
 .header img {
-  width: 100px;
+  width: 90px;
 }
 
-.header b {
-  position: absolute;
-  font-family: cursive;
-  font-size: 40px;
-  color: yellow;
+.danniy {
+  display: grid;
+  grid-template-columns: 4fr 6fr 10fr 8fr 6fr ;
+  color: white;
+}
+.danniy .item {
+  padding-top: 40px;
+}
+.item a {
+  color: white;
+  text-decoration: none;
+}
+.item b {
+  padding-left: 5px;
+  color: gold;
 }
