@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Header.module.css';
+import {isLocalhost} from '../../serviceWorker';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
     faFacebook,
@@ -12,10 +13,12 @@ const Header = () => {
     return(
         <header className={s.header}>
         <div className={s.danniy}>
-        <img src='https://s1.logaster.com/static/v3/img/products/logo.png'/>
+        {/* <div className={s.moon}><br/><br/><b>STATIC_X</b></div> */}
+       <a href='http://localhost:3000/profile'> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxdSfYf9DW9koH2nyLuNve99m5uWpAXye4jWTv4vbUYwaY464J" alt=""/>
+       </a>
           <div className={s.item}>
           <FontAwesomeIcon icon={faStackOverflow} size="2px" />
-           <b>Tel:</b>  (90) 975-76-51
+           <b>Tel:</b> (90) 975-76-51
           </div>
           <div className={s.item}>
           <FontAwesomeIcon icon={faTelegramPlane} size="2px" />

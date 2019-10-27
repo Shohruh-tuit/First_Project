@@ -3,14 +3,9 @@ import s from "./Navbar.module.css";
 import { NavLink } from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
-    faFacebook,
-    faInstagram,
-    faTelegramPlane,
-    faStackOverflow,
-    faBlackberry,
     faFacebookMessenger,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBasketballBall, faBlenderPhone, faUser, faNewspaper, faMusic, faAssistiveListeningSystems, faWrench } from "@fortawesome/free-solid-svg-icons"
+import { faUser, faNewspaper, faMusic, faWrench } from "@fortawesome/free-solid-svg-icons"
 
 
 // let s = {

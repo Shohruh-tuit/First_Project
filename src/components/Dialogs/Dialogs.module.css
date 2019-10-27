@@ -22,3 +22,6 @@
     color: red;
     text-decoration: none;
 }
+.dialog .activeLink {
+    color: green;
+}
