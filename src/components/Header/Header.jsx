@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Header.module.css';
-import {isLocalhost} from '../../serviceWorker';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
     faFacebook,
