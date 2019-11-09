@@ -33,8 +33,10 @@ const Navbar = () => {
         <NavLink to="/music" activeClassName={s.activeLink}> Music</NavLink>
       </div>
       <div className={s.item}>
+        <div className={s.settings}>
         <FontAwesomeIcon  icon={faWrench} size="2px"/>
         <NavLink to="/settings" activeClassName={s.activeLink}> Settings</NavLink>
+        </div>
       </div>
     </nav>
   );

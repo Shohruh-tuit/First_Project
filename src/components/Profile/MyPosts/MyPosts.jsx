@@ -4,6 +4,10 @@ import Post from "./post/Post";
 import Post2 from "./post2/Post2";
 
 const MyPosts = () => {
+  let postData = [
+    {id: 1, messages: "Hi, How are you", countLike: 23},
+    {id: 2, messages: "It's my first post on React!", countLike: 48},
+  ]
   return (
     <div className={s.postsBlock}>
       <h3>My posts</h3>
@@ -17,8 +21,8 @@ const MyPosts = () => {
         </div>
       </div>
       <div className={s.posts}>
-      <Post message="Hi, How are you" countLike="23" />
-      <Post2 message="It's my first post on React!" countLike="48" />
+      <Post message={postData[0].messages} countLike={postData[0].countLike} />
+      <Post2 message={postData[0].messages} countLike={postData[0].countLike} />
       </div>
     </div>
   );
