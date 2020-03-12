@@ -28,15 +28,13 @@ const Header = () => {
         </div>
         <div className={s.item}>
           <FontAwesomeIcon icon={faFacebook} size="2px" />
-          <b>Facebook:</b>{" "}
-          <a href="https://www.facebook.com/shohruh.okayer?ref=bookmarks">
-            {" "}
-            Shohruh.com
+          <b>Facebook:</b>
+          <a href="https://www.facebook.com/shohruh.okayer?ref=bookmarks"> Shohruh.com
           </a>
         </div>
         <div className={s.item}>
           <FontAwesomeIcon icon={faInstagram} size="2px" />
-          <b>Instagram:</b>{" "}
+          <b>Instagram:</b>
           <a href="https://instagram.com/i_shoxruh"> i_shoxruh</a>
         </div>
       </div>

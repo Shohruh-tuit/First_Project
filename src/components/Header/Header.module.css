@@ -21,6 +21,7 @@
 .danniy img {
   width: 70px;
   height: 70px;
+  border-radius: 35px;
 }
 .item a {
   color: white;

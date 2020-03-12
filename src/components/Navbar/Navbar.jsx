@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className={s.nav}>
       <div className={s.item}>
-        <FontAwesomeIcon  icon={faUser} size="2px"/>
+        <FontAwesomeIcon  icon={faUser} size="2px"/>    {/*a = Navlink*/ commentariya}
         <NavLink to="/profile" activeClassName={s.activeLink}> Profile</NavLink>
       </div>
       <div className={s.item}>
