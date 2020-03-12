@@ -15,15 +15,15 @@ const Dialogs = props => {
   {id: 5, name: 'Suxrob'}
 ]
 let messages = [
-  {id: 1, messages: "Salom"},
-  {id: 2, messages: "Ishlar yaxwimi"},
-  {id: 3, messages: "yaxwi raxmat!!!"},
+  {id: 1, message: "Salom"},
+  {id: 2, message: "Ishlar yaxwimi"},
+  {id: 3, message: "yaxwi raxmat!!!"},
 ]
 let dialogsElements = dialogs.map(dialogs => {
   return <DialogItem name={dialogs.name} id={dialogs.id}/>
 })
-let messagesElements = messages.map(message => {
-  return <Message message={message.messages} /> 
+let messagesElements = messages.map(messages => {
+  return <Message message={messages.message} /> 
 })
 
   return (
