@@ -13,6 +13,7 @@
 } 
 
 .messages .message {
+    color: white;
     padding: 10px;
 }
 .dialog a {

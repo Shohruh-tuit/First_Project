@@ -1,5 +1,5 @@
 .header { 
-  width: 1380px;
+  width: 100%;
   height: 70px;
   display: grid;
   grid-area: h;
@@ -20,7 +20,7 @@
 }
 .danniy img {
   width: 70px;
-  height: 70px;;
+  height: 70px;
 }
 .item a {
   color: white;
