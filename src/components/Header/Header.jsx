@@ -13,7 +13,7 @@ const Header = () => {
     <header className={s.header}>
       <div className={s.danniy}>
         {/* <div className={s.moon}><br/><br/><b>STATIC_X</b></div> */}
-        <a href="http://localhost:3000/profile">
+        <a href="http://localhost:3000/"> 
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxdSfYf9DW9koH2nyLuNve99m5uWpAXye4jWTv4vbUYwaY464J"
           />
@@ -29,8 +29,7 @@ const Header = () => {
         <div className={s.item}>
           <FontAwesomeIcon icon={faFacebook} size="2px" />
           <b>Facebook:</b>
-          <a href="https://www.facebook.com/shohruh.okayer?ref=bookmarks"> Shohruh.com
-          </a>
+          <a href="https://www.facebook.com/shohruh.okayer?ref=bookmarks"> Shohruh.com</a>
         </div>
         <div className={s.item}>
           <FontAwesomeIcon icon={faInstagram} size="2px" />

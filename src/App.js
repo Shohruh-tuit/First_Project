@@ -9,6 +9,7 @@ import Dialogs from "./components/Dialogs/Dialogs";
 import Settings from "./components/Settings/Settings";
 import { BrowserRouter, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+import { NavLink } from "react-router-dom";
 
 const App = () => {
   return (

@@ -19,8 +19,8 @@ let messages = [
   {id: 2, messages: "Ishlar yaxwimi"},
   {id: 3, messages: "yaxwi raxmat!!!"},
 ]
-let dialogsElements = dialogs.map(d => {
-  return <DialogItem name={d.name} id={dialogs.id}/>
+let dialogsElements = dialogs.map(dialogs => {
+  return <DialogItem name={dialogs.name} id={dialogs.id}/>
 })
 let messagesElements = messages.map(message => {
   return <Message message={message.messages} /> 
