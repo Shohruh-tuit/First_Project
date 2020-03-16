@@ -1,6 +1,6 @@
 .Music {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 3fr 10fr;
 
 }
 .MusicNames .music {
@@ -24,4 +24,5 @@
 }
 .icons {
     padding-right: 10px;
+    padding-left: 10px;
 }
