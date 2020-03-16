@@ -1,3 +1,27 @@
 .Music {
-    background-color: rgb(236, 37, 37);
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+
+}
+.MusicNames .music {
+    padding: 10px;
+}
+.MusicAuthor .music {
+    padding: 10px;
+}
+.MusicNames {
+    padding: 10px;
+}
+.MusicAuthor {
+    padding: 10px;
+}
+.music a {
+    color: red;
+    text-decoration: none;
+}
+.music .activeLink {
+    color: black;
+}
+.icons {
+    padding-right: 10px;
 }

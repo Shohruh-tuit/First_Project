@@ -12,6 +12,8 @@ import Footer from "./components/Footer/Footer";
 import { NavLink } from "react-router-dom";
 
 const App = (props) => {
+  
+
   return (
     <BrowserRouter>
       <div className="app-wrapper">
@@ -21,7 +23,7 @@ const App = (props) => {
           <Route path="/dialogs" render={() => <Dialogs dialogs={props.dialogs} messages = {props.messages} />} />
           <Route path="/profile" render={() => <Profile posts={props.posts} />} />
           <Route path="/news" render={() => <News />} />
-          <Route path="/music" render={() => <Music />} />
+          <Route path="/music" render={() => <Music musicNames = {props.musicNames} musicAuthor = {props.musicAuthor}/>} />
           <Route path="/settings" render={() => <Settings />} />
         </div>
         <Footer />
