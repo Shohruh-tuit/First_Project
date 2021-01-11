@@ -15,7 +15,7 @@ const Header = () => {
         {/* <div className={s.moon}><br/><br/><b>STATIC_X</b></div> */}
         <a href="http://localhost:3000/"> 
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxdSfYf9DW9koH2nyLuNve99m5uWpAXye4jWTv4vbUYwaY464J"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4ZjGsTvUeu3KmHsbaknwW7ayq66eJilK-elNuBjyfEbOuU2kW"
           />
         </a>
         <div className={s.item}>

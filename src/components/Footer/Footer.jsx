@@ -4,9 +4,9 @@ import s from './Footer.module.css'
 const Footer = () => {
     return (
       <footer className={s.footer}> 
-       <b>
+       <div className={s.logo}>
           Epsilon-development.com 
-       </b>
+       </div>
       </footer>
     );
 }

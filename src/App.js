@@ -11,19 +11,31 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import { NavLink } from "react-router-dom";
 
-const App = (props) => {
-  
-
+const App = props => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
         <Header />
         <Navbar />
         <div className="app-wrapper-content">
-          <Route path="/dialogs" render={() => <Dialogs dialogs={props.dialogs} messages = {props.messages} />} />
-          <Route path="/profile" render={() => <Profile posts={props.posts} />} />
+          <Route
+            path="/dialogs"
+            render={() => <Dialogs state={props.state.dialogsPage} />}
+          />
+          <Route
+            path="/profile"
+            render={() => <Profile state={props.state.profilePage} />}
+          />
           <Route path="/news" render={() => <News />} />
-          <Route path="/music" render={() => <Music musicNames = {props.musicNames} musicAuthor = {props.musicAuthor}/>} />
+          <Route
+            path="/music"
+            render={() => (
+              <Music
+                musicNames={props.state.musicPage.musicNames}
+                musicAuthor={props.state.musicPage.musicAuthor}
+              />
+            )}
+          />
           <Route path="/settings" render={() => <Settings />} />
         </div>
         <Footer />
